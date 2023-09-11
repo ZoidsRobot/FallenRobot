@@ -2,30 +2,30 @@ class Config(object):
     LOGGER = True
 
     # Get this value from my.telegram.org/apps
-    API_ID = 6
-    API_HASH = "eb06d4abfb49dc3eeb1aeb98ae0f581e"
+    API_ID = 9774346
+    API_HASH = "a92aed7d74654a563af4b07efbcd88e9"
 
-    CASH_API_KEY = ""  # Get this value for currency converter from https://www.alphavantage.co/support/#api-key
+    CASH_API_KEY = "SBG7THOFCOCG9ECV"  # Get this value for currency converter from https://www.alphavantage.co/support/#api-key
 
-    DATABASE_URL = ""  # A sql database url from elephantsql.com
+    DATABASE_URL = "postgres://kjarjdrr:j9WKw-Au1ZAkpYPyqXnknzMby9taeES5@stampy.db.elephantsql.com/kjarjdrr"  # A sql database url from elephantsql.com
 
-    EVENT_LOGS = ()  # Event logs channel to note down important bot level events
+    EVENT_LOGS = (-1001844573348)  # Event logs channel to note down important bot level events
 
-    MONGO_DB_URI = ""  # Get ths value from cloud.mongodb.com
+    MONGO_DB_URI = "mongodb+srv://ZoMusic:Rextor99@zomusic.iabfu0l.mongodb.net/?retryWrites=true&w=majority"  # Get ths value from cloud.mongodb.com
 
     # Telegraph link of the image which will be shown at start command.
     START_IMG = "https://te.legra.ph/file/5355e70d885f0781d7410.jpg"
 
     SUPPORT_CHAT = "ZOIDsSupport"  # Your Telegram support group chat username where your users will go and bother you
 
-    TOKEN = ""  # Get bot token from @BotFather on Telegram
+    TOKEN = "5620597185:AAFeONfKCXg17IUt5nFm7g-LDgAAiOR8C4Q"  # Get bot token from @BotFather on Telegram
 
-    TIME_API_KEY = ""  # Get this value from https://timezonedb.com/api
+    TIME_API_KEY = "SXB4XEFZEXRV"  # Get this value from https://timezonedb.com/api
 
-    OWNER_ID = 1356469075  # User id of your telegram account (Must be integer)
+    OWNER_ID = 907544310  # User id of your telegram account (Must be integer)
 
     # Optional fields
-    BL_CHATS = []  # List of groups that you want blacklisted.
+    BL_CHATS = [-1001844573348]  # List of groups that you want blacklisted.
     DRAGONS = []  # User id of sudo users
     DEV_USERS = []  # User id of dev users
     DEMONS = []  # User id of support users
