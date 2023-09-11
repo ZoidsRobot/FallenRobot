@@ -26,8 +26,8 @@ from telegram.ext.dispatcher import DispatcherHandlerStop, run_async
 from telegram.utils.helpers import escape_markdown
 from telethon import __version__ as tlhver
 
-import KynanRobot.modules.sql.users_sql as sql
-from KynanRobot import (
+import FallenRobot.modules.sql.users_sql as sql
+from FallenRobot import (
     BOT_NAME,
     BOT_USERNAME,
     LOGGER,
@@ -42,9 +42,9 @@ from KynanRobot import (
     telethn,
     updater,
 )
-from KynanRobot.modules import ALL_MODULES
-from KynanRobot.modules.helper_funcs.chat_status import is_user_admin
-from KynanRobot.modules.helper_funcs.misc import paginate_modules
+from FallenRobot.modules import ALL_MODULES
+from FallenRobot.modules.helper_funcs.chat_status import is_user_admin
+from FallenRobot.modules.helper_funcs.misc import paginate_modules
 
 
 def get_readable_time(seconds: int) -> str:
